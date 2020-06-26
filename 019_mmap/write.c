@@ -43,6 +43,8 @@ int  main(void){
     //取消内存映射
  flg1:   munmap(mp,SHM_ZISE);
 
+    //关闭内存
+    close(fd);
     //删除共享内存
     shm_unlink(SHM_NAME);
 

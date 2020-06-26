@@ -12,9 +12,13 @@
 011_alarm:alarm和pause实现sleep
 012_select:select用于多路复用IO
 013_asyncIO:异步IO
-014_semaphore:线程间通信之信号量
+014_semaphore1:无名信号量（使用线程间通信演示）
 015_mutex&cleanup:线程间通信之互斥量、线程退出的自动清理
 016_cond:线程间通信之条件变量
 017_tcp:基于TCP协议的网络通信
 018_upp:基于UDP协议的网络通信
 019_shm:进程间通信之共享内存
+020_semaphore2:有名信号量（使用进程间通信演示）
+
+
+
